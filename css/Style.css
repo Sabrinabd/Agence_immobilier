@@ -24,6 +24,9 @@ body {
 strong {
   color: #f1c40f;
 }
+em {
+  color: #555;
+}
 .title {
   font-size: 1.5rem;
   font-weight: 300;
@@ -177,4 +180,43 @@ header ul li:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/*avis*/
+.avis {
+  padding: 5rem 1rem 5rem 1rem;
+}
+.avis-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.avis-elem {
+  flex: 1;
+  padding: 2rem;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.avis-elem-text {
+  padding: 0 2rem;
+}
+.avis-elem-text p i {
+  margin: 0.2rem;
+}
+.avis-elem-profil p {
+  margin-bottom: 0.5rem;
+}
+.avis-elem-profil h4 {
+  margin-bottom: 0.5rem;
+}
+
+.avis-elem-profil img {
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
 }
