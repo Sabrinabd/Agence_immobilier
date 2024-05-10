@@ -29,7 +29,10 @@ strong {
   font-weight: 300;
   margin-bottom: 2rem;
 }
-
+.bg-dark {
+  background: #333;
+  color: white;
+}
 /*vp+ header*/
 s .vp-container {
   min-height: 100vh;
@@ -145,4 +148,33 @@ header ul li:hover {
   background: #333;
   height: 1px;
   width: initial;
+}
+
+/*team*/
+.team {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.team-content-text {
+  flex: 1;
+
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.team-content-text p {
+  font-size: 1rem;
+}
+.team-content-text h2 {
+  margin-bottom: 1rem;
+}
+.team-content-img {
+  flex: 1;
+}
+
+.team-content-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
