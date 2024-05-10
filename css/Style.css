@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin-bottom: 0.8rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #eee;
+  color: #333;
+}
+strong {
+  color: #f1c40f;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+/*vp+ header*/
+s .vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 0.7rem 2rem;
+  background-color: #333;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  line-height: 2rem;
+}
+
+header a {
+  color: white;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  flex-flow: row nowrap;
+}
+
+header ul li {
+  margin-right: 1rem;
+}
+
+header ul li:hover {
+  color: #f1c40f;
+}
+
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/Agence_immobilier/img/image1.jpg) center center/cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.vp-logo {
+  font-family: "Long Cang", cursive;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.vp-logo i {
+  color: #f1c40f;
+  font-size: 1.3rem;
+  margin-right: 0.3rem;
+}
+.vp-logo a {
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+.vp-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.vp-content p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+/*offres*/
+
+.offer {
+  padding: 10rem 1rem 10rem 1rem;
+}
+.container {
+  display: block;
+  margin: auto;
+  max-width: 1200px;
+}
+.offer-list {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  justify-content: space-between;
+}
+.offer-elem {
+  border: 1px solid #ddd;
+  background: white;
+  margin: 1rem;
+  flex: 1;
+}
+.offer-elem img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.offer-text {
+  padding: 2rem;
+  text-align: center;
+}
+.offer-separator {
+  margin: 1rem auto;
+  background: #333;
+  height: 1px;
+  width: initial;
+}
