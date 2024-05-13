@@ -1,2 +1,75 @@
+title {
+  text-align: center;
+}
+header {
+  flex-direction: column;
+}
 
+header ul {
+  flex-direction: column;
+  align-items: center;
+}
+header ul li {
+  margin-right: 0;
+}
+.vp-content h1 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.vp {
+  height: 20rem;
+}
+.vp-content p {
+  font-size: 0.5rem;
+  font-weight: 300;
 
+  line-height: 1.2;
+}
+
+/*offres*/
+.offer {
+  padding: 5rem 1rem 5rem 1rem;
+  text-align: center;
+}
+
+.offer-list {
+  flex-direction: column;
+}
+.offer-text {
+  padding: 1rem;
+  text-align: center;
+}
+
+/*team*/
+.team {
+  flex-direction: column-reverse;
+}
+.team-content-img {
+  min-height: 300px;
+}
+.team-content-text {
+  padding: 1rem;
+  text-align: center;
+}
+/*avis*/
+.avis-elem {
+  flex-direction: column;
+}
+.avis-elem-reverse {
+  flex-direction: column-reverse;
+}
+
+.avis-elem-profil p {
+  text-align: center;
+}
+.avis-elem-profil img {
+  display: block;
+  margin: 2rem auto;
+}
+/*contact*/
+.contact {
+  padding: 3rem 1rem 3rem 1rem;
+}
+.contact-button {
+  margin: 3rem auto 0 auto;
+}

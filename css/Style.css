@@ -61,12 +61,12 @@ header ul {
   flex-flow: row nowrap;
 }
 
-header ul li {
+header ul li a {
   color: black;
   margin-right: 1rem;
 }
 
-header ul li:hover {
+header ul li a:hover {
   color: #f1c40f;
 }
 
@@ -157,6 +157,7 @@ header ul li:hover {
 .team {
   display: flex;
   flex-flow: row nowrap;
+  min-height: 600px;
 }
 .team-content-text {
   flex: 1;
@@ -174,6 +175,7 @@ header ul li:hover {
 }
 .team-content-img {
   flex: 1;
+  background: url(../img/equipe.webp) center center/cover;
 }
 
 .team-content-img img {
